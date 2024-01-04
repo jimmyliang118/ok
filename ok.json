@@ -1,0 +1,519 @@
+{
+   "spider":"./ok.jar",
+   "wallpaper": "http://hqkong.fun:666/php/pic.php",
+	
+	"lives":[
+	
+		 {
+		"name":"IPV6",
+		"type":0,
+		"url":"./liv6.txt",
+	    "playerType":2,
+		"epg":"https://epg.112114.xyz/?ch={name}&date={date}"
+	
+	    },
+			
+	
+	   {
+			"name": "备用直播线路",
+			"type": 0,
+			"playerType": 1,
+			"url": "http://home.jundie.top:81/Cat/tv/live.txt",
+			"epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+			"logo": "https://epg.112114.xyz/logo/{name}.png",
+			"ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+			}
+		 
+		
+	],
+	 
+	 
+    "sites":[
+        {
+            "key":"豆瓣",
+            "name":"🍀豆瓣热播🍀",
+            "type":3,
+            "api":"csp_Douban",
+            "searchable":0,
+            "changeable":1
+        },
+		
+		 {
+            "key":"配置中心",
+            "name":"⚙配置中心⚙",
+            "type":3,
+            "api":"csp_Config",
+            "searchable":0,
+            "changeable":0,
+            "style":{
+                "type":"rect",
+                "ratio":1.43
+            }
+        },
+		
+		
+	 {"key":"bili",
+	 "name":"🍇哔哩哔哩🍇",
+	 "type": 3,
+	 "api":"csp_Bili",
+	 "searchable":1,
+	 "quickSearch":1,
+	 "filterable":1,
+
+	 "style": {
+      "type": "rect",
+      "ratio": 1.433
+        },
+		
+      "ext": {
+        "type": "说案#纪录片#健身#探索发现#动物世界#知名UP主#风景#白噪音#鬼畜#食谱",
+        "cookie": "./bili.txt"
+      }},
+		
+		
+  {"key":"bilicomedy",
+	 "name":"️😂相声小品😂️",
+	 "type": 3,
+	 "api":"csp_Bili",
+	 "searchable":1,
+	 "quickSearch":1,
+	 "filterable":1,
+
+	 "style": {
+      "type": "rect",
+      "ratio": 1.433
+        },
+		
+      "ext": {
+        "type": "单口相声#群口相声#赵本山#宋小宝#严顺开#开心麻花#德云社#青曲社#郭德纲#岳云鹏#曹云金#评书#二人转#春晚小品#喜剧综艺",
+        "cookie": "./bili.txt"
+      }},
+		
+		
+		{
+			"key":"js_BT2",
+			"name":"💘比特剧集💘",
+			"type":3,
+			"api":"./js/drpy2.min.js",
+			"ext":"./js/bt2.js",
+			"searchable": 1,
+			"quickSearch": 0,
+			"filterable": 0
+        },
+	   
+			
+		 {
+			"key": "NanGua",
+			"name": "🎃南瓜影视🎃",
+			"type": 3,
+			"api": "csp_NanGua",
+			"searchable": 1,
+			"changeable": 1,
+			"jar":"./pgnogo.jar",
+			"ext": "null$$$1"
+		},
+
+       {
+            "key": "荐片弹幕版",
+            "name": "🔥热荐剧集🔥",
+            "type": 3,
+            "api": "csp_Jianpian",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+			"playerType":1,
+            "ext": {
+                "danmu": true
+            },
+			"timeout":30
+        },
+
+		
+     {
+            "key":"玩偶弹幕版",
+            "name":"🐰玩偶弹幕4K🐰",
+            "type":3,
+            "api":"csp_Wogg",
+            "searchable":1,
+            "filterable":1,
+            "changeable":0,
+            "ext":{
+                "token":"file://TV/ali_token.txt",
+                "danmu":true
+            },
+			"timeout":30
+        },
+    
+	 {
+		 "key":"运输车弹幕版",
+		 "name":"🚐运输车|4K🚐",
+		 "type":3,
+		 "api":"csp_Wogg",
+		 "searchable":1,
+		 "filterable":1,
+		 "changeable":1,
+		 "ext": {
+			  "token": "file://TV/ali_token.txt",
+			  "cookie": "file://TV/quark_cookie.txt",
+			  "site": "https://www.weixine.net",
+			  "danmu" : true
+			},
+			"timeout": 25
+			
+	},
+	
+    {
+		"key":"盘99弹幕版",
+		"name":"📀盘99|4K📀",
+		"type":3,
+		"api":"csp_Pan99",
+		"searchable":1,
+		"filterable":1,
+		"changeable":1, 
+		"ext": {
+			  "token": "file://TV/ali_token.txt",
+			  "cookie": "file://TV/quark_cookie.txt",
+			  "danmu" : true
+	  
+			  }, 
+		"timeout": 25
+	
+	},	
+		
+	
+	
+	
+	
+	
+        {
+            "key":"盘Se",
+            "name":"🏵阿里搜寻🏵",
+            "type":3,
+            "api":"csp_PanSearch",
+            "searchable":1,
+            "filterable":0,
+            "changeable":0,
+            "ext":{
+                "token":"file://TV/ali_token.txt",
+                "danmu":true
+            },
+			"timeout":30
+        },
+       
+        {
+            "key":"七夜",
+            "name":"🌷阿里七夜🌷",
+            "type":3,
+            "api":"csp_Dovx",
+            "searchable":1,
+            "filterable":0,
+            "changeable":0,
+            "ext":{
+                "token":"file://TV/ali_token.txt",
+                "danmu":true
+            },
+			"timeout":30
+        },
+        {
+            "key":"盘搜",
+            "name":"🌼阿里盘搜🌼",
+            "type":3,
+            "api":"csp_PanSou",
+            "searchable":1,
+            "filterable":0,
+            "changeable":0,
+            "ext":{
+               "token":"file://TV/ali_token.txt",
+                "danmu":true
+            },
+			"timeout":30
+        },
+        {
+            "key":"易搜",
+            "name":"💮阿里易搜💮",
+            "type":3,
+            "api":"csp_YiSo",
+            "searchable":1,
+            "filterable":0,
+            "changeable":0,
+            "ext":{
+                "token":"file://TV/ali_token.txt",
+                "danmu":true,
+                "cookie":"JSESSIONID=FEAFA3BD405267C378C2455FBAD4A704;satoken=0f065aaa-1b6b-4b9b-9910-83a67fb14da2"
+            },
+			"timeout":30
+        },
+        {
+            "key":"Up云搜",
+            "name":"🌺阿里UP搜🌺",
+            "type":3,
+            "api":"csp_Upys",
+            "searchable":1,
+            "filterable":0,
+            "changeable":0,
+            "ext":{
+               "token":"file://TV/ali_token.txt",
+                "danmu":true
+            },
+			"timeout":30
+        },
+		
+		
+		{
+			"key":"Zhaozy",
+			"name":"🌻找资源🌻",
+			"type":3,
+			"api":"csp_Zhaozy",
+			"searchable":1,
+			"quickSearch":1,
+			"filterable":0,
+			"changeable":0,
+			"ext":{
+               "token":"file://TV/ali_token.txt",
+                "danmu":true
+            },
+			"timeout":30
+		},
+		
+				
+        {
+            "key":"云盘4K",
+            "name":"🌤阿里云盘4K🌤",
+            "type":3,
+            "api":"csp_Yunpan4k",
+            "searchable":1,
+            "filterable":0,
+            "changeable":0,
+            "ext":{
+               "token":"file://TV/ali_token.txt",
+               "danmu":true
+            },
+			"timeout":30
+        },
+	 	
+        {
+            "key":"push_agent",
+            "name":"🛴资源推送🛴",
+            "type":3,
+            "api":"csp_Push",
+            "searchable":0,
+            "filterable":0,
+            "changeable":0,
+           "ext":{
+			   "token":"file://TV/ali_token.txt", 
+			   "cookie": "file://TV/quark_cookie.txt", 
+			   "danmu": true
+			   },
+		   
+		   "timeout":25
+		   
+        }
+		
+		
+       
+    ],
+    "parses":[
+        {
+            "name":"聚合1",
+            "type":3,
+            "url":"Demo"
+        },
+        {
+            "name":"聚合0",
+            "type":3,
+            "url":"Web"
+        },
+        {
+            "name":"ok",
+            "type":1,
+            "url":"http://127.0.0.1:9978/proxy?do=appmaoparse&app=juzi&url=",
+            "ext":{
+                "flag":[
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "tucheng",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "yzm",
+                    "aliyun",
+                    "RJuMao",
+                    "bilibili",
+                    "1905",
+                    "xinvip",
+                    "XAL",
+                    "qiqi",
+                    "XALS",
+                    "YuMi-vip"
+                ]
+            }
+        }
+    ],
+    "doh":[
+        {
+            "name":"Google",
+            "url":"https://dns.google/dns-query",
+            "ips":[
+                "8.8.4.4",
+                "8.8.8.8"
+            ]
+        },
+        {
+            "name":"Cloudflare",
+            "url":"https://cloudflare-dns.com/dns-query",
+            "ips":[
+                "1.1.1.1",
+                "1.0.0.1",
+                "2606:4700:4700::1111",
+                "2606:4700:4700::1001"
+            ]
+        },
+        {
+            "name":"AdGuard",
+            "url":"https://dns.adguard.com/dns-query",
+            "ips":[
+                "94.140.14.140",
+                "94.140.14.141"
+            ]
+        },
+        {
+            "name":"DNSWatch",
+            "url":"https://resolver2.dns.watch/dns-query",
+            "ips":[
+                "84.200.69.80",
+                "84.200.70.40"
+            ]
+        },
+        {
+            "name":"Quad9",
+            "url":"https://dns.quad9.net/dns-quer",
+            "ips":[
+                "9.9.9.9",
+                "149.112.112.112"
+            ]
+        }
+    ],
+    "rules":[
+        {
+            "name":"hwk",
+            "hosts":[
+                "haiwaikan"
+            ],
+            "regex":[
+                "10.0099",
+                "10.3333",
+                "16.0599",
+                "8.1748",
+                "10.85"
+            ]
+        },
+        {
+            "name":"yqk",
+            "hosts":[
+                "yqk88"
+            ],
+            "regex":[
+                "18.4",
+                "15.1666"
+            ]
+        },
+        {
+            "name":"sn",
+            "hosts":[
+                "suonizy"
+            ],
+            "regex":[
+                "15.1666",
+                "15.2666"
+            ]
+        },
+        {
+            "name":"bf",
+            "hosts":[
+                "bfzy"
+            ],
+            "regex":[
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+            ]
+        },
+        {
+            "name":"xx",
+            "hosts":[
+                "aws.ulivetv.net"
+            ],
+            "regex":[
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+            ]
+        },
+        {
+            "name":"lz",
+            "hosts":[
+                "vip.lz",
+                "hd.lz",
+                "v.cdnlz1",
+                "v.cdnlz"
+            ],
+            "regex":[
+                "18.5333"
+            ]
+        },
+        {
+            "name":"非凡",
+            "hosts":[
+                "vip.ffzy",
+                "hd.ffzy"
+            ],
+            "regex":[
+                "25.0666"
+            ]
+        },
+        {
+            "name":"hs",
+            "hosts":[
+                "huoshan.com"
+            ],
+            "regex":[
+                "item_id="
+            ]
+        },
+        {
+            "name":"dy",
+            "hosts":[
+                "douyin.com"
+            ],
+            "regex":[
+                "is_play_url="
+            ]
+        },
+        {
+            "name":"nm",
+            "hosts":[
+                "toutiaovod.com"
+            ],
+            "regex":[
+                "video/tos/cn"
+            ]
+        },
+        {
+            "name":"cl",
+            "hosts":[
+                "magnet"
+            ],
+            "regex":[
+                "最 新",
+                "直 播",
+                "更 新"
+            ]
+        }
+    ]
+}
