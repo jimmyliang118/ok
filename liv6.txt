@@ -94,13 +94,11 @@ CCTV16-4K,http://[2409:8087:2001:20:2800:0:df6e:eb18]/ott.mobaibox.com/PLTV/3/22
 五星体育,http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001018/index.m3u8
 央视台球,http://[2409:8087:7001:20:2::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226956/index.m3u8
 央视高网,http://[2409:8087:7001:20:2::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226978/index.m3u8
-五星体育,http://hqkong.fun:9876/udp/239.45.3.210:5140
+
 精品体育,http://[2409:8087:2001:20:2800:0:df6e:eb1b]:80/wh7f454c46tw2797725038_-2054878207/ott.mobaibox.com/PLTV/3/224/3221227615/index.m3u8
 
 JJ斗地主主房间,http://hqkong.fun:666/php/douyin.php?id=685317364746
 JJ麻将主房间,http://hqkong.fun:666/php/douyin.php?id=58126532117
-四国军棋大战,http://hqkong.fun:666/php/douyin.php?id=762496075069
-四国军棋大战2,http://hqkong.fun:666/php/douyin.php?id=105080632830
 虎牙JJ斗地主,http://hqkong.fun:666/php/huya.php?id=14079954
 
 
