@@ -114,8 +114,9 @@
 			  "ratio": 1.433
 				},
 			 "ext": {
-				"type": "说案#纪录片#健身#探索发现#动物世界#知名UP主#风景#白噪音#鬼畜#食谱",
-				"cookie":"file://TV/bili_cookie.txt",
+"cookie":"file://TV/bili_cookie.txt",				
+"json": "./bili.json"
+				
 			  },
 		 	 "timeout": 25
 	    },
