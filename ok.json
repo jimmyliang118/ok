@@ -6,7 +6,7 @@
 	
 		 	
 		{ 
-		"name":"宽带需开通IPV6",
+		"name":"开通IPV6",
 		"type":0,
 		"url":"https://live.fanmingming.com/tv/m3u/ipv6.m3u",
 		"playerType":1,
@@ -114,8 +114,8 @@
 			  "ratio": 1.433
 				},
 			 "ext": {
-"cookie":"file://TV/bili_cookie.txt",				
-"json": "./bili.json"
+			"cookie":"file://TV/bili_cookie.txt",				
+			"json": "./bili.json"
 				
 			  },
 		 	 "timeout": 25
@@ -138,7 +138,7 @@
 				
 			  "ext": {
 				"type": "单口相声#群口相声#赵本山#宋小宝#严顺开#开心麻花#德云社#青曲社#郭德纲#岳云鹏#曹云金#评书#二人转#春晚小品#喜剧综艺",
-				"cookie":"file://TV/bili_cookie.txt",
+				"cookie":"file://TV/bili_cookie.txt"
 			  },
 			  "timeout": 25
 		},
