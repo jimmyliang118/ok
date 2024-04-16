@@ -115,7 +115,7 @@
 				},
 			 "ext": {
 				"type": "说案#纪录片#健身#探索发现#动物世界#知名UP主#风景#白噪音#鬼畜#食谱",
-				"cookie": "./bili.txt"
+				"cookie":"file://TV/bili_cookie.txt",
 			  },
 		 	 "timeout": 25
 	    },
@@ -137,7 +137,7 @@
 				
 			  "ext": {
 				"type": "单口相声#群口相声#赵本山#宋小宝#严顺开#开心麻花#德云社#青曲社#郭德纲#岳云鹏#曹云金#评书#二人转#春晚小品#喜剧综艺",
-				"cookie": "./bili.txt"
+				"cookie":"file://TV/bili_cookie.txt",
 			  },
 			  "timeout": 25
 		},
