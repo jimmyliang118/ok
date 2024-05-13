@@ -68,27 +68,7 @@
 		  "timeout": 10
 		},
 		 
-		 
-		
-		{
-			  "key":"白票弹幕版",
-			  "name":"🦄白票弹幕🦄",
-			  "type": 3,
-			  "api":"csp_Cs1369",
-			  "playerType":1,
-			  "searchable":1,
-			  "quickSearch":1,
-			  "filterable":1,
-			 "ext": {
-			"danmu": true
-		  },
-			  "timeout": 25
-		},
-
-
-
-		 
-
+	
 	
 	
 	   {
