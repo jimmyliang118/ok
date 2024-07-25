@@ -54,20 +54,12 @@
         },
 	
 
-	    {
-		  "key": "南瓜弹幕版",
-		  "name": "🎃南瓜弹幕🎃",
-		  "type": 3,
-		  "api": "csp_Nangua",
-		  "searchable": 1,
-		  "quickSearch": 1,
-		  "filterable": 1,
-		  "ext": {
-			"danmu": true
-		  },
-		  "timeout": 10
-		},
-		 
+	 
+		 {"key":"天天弹幕版","name":"⛅️天天弹幕⛅️","type": 3,"api":"csp_TianTian","searchable":1,"quickSearch":1,"filterable":1,"ext": {"danmu": true}, "timeout": 15},
+		
+	{"key":"厂长弹幕版","name":"🏭厂长弹幕🏭","type":3,"api":"csp_Czzy","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":true},
+"timeout":10},
+	
 	
 	
 	
@@ -127,7 +119,7 @@
         },
 	   
 	
-	    {
+	 {
             "key":"玩偶弹幕版",
             "name":"🐰玩偶弹幕🐰",
             "type":3,
@@ -137,12 +129,31 @@
             "changeable":0,
            "ext": {
 			"token": "file://tvfan/ali_token.txt",
+			"cookie":"file://TV/quark_cookie.txt",
+			"uc_cookie":"file://TV/uc_cookie.txt",
 			"wogg": true,
 			"danmu": true
 			},
 			"timeout":30
         },
-	
+
+	    
+		{
+			"key":"立播弹幕版",
+			"name":"🐚立播弹幕🐚",
+			"type":3,
+			"api":"csp_Libvio",
+			"searchable":1,
+			"filterable":1,
+			"changeable":1,
+			"ext":{
+				"token":"file://TV/ali_token.txt",
+				"cookie":"file://TV/quark_cookie.txt",
+				"uc_cookie":"file://TV/uc_cookie.txt",
+				"danmu":true
+			},
+			"timeout":30
+		},
 		
 		{
 			"key":"csp_QuPanSou",
@@ -156,35 +167,24 @@
 		},
 		
 		
-		{
-			"key":"csp_Qkpanso",
-			"name":"🎺夸克盘搜🎺",
-			"type":3,
-			"api":"csp_Qkpanso",
-			"searchable":1,
-			"filterable":1,
-			"changeable":0,
-			"ext": {
-			"cookie": "file://TV/quark_cookie.txt",
-			"danmu": true
-					},
-			"timeout":25
-		  
-		  
-		},
+		 
 		
 			
 		{
-			"key":"csp_AiPanSou",
-			"name":"🥰夸克爱搜🥰",
+			"key":"夸搜",
+			"name":"🥰夸搜网盘🥰",
 			"type":3,
-			"api":"csp_AiPanSou",
+			"api":"csp_Qkso",
 			"searchable":1,
 			"filterable":1,
 			"changeable":0,
-			"ext":{"cookie":"file://TV/quark_cookie.txt", "danmu": true},
+			"ext":{
+				"cookie":"file://TV/quark_cookie.txt",
+				 
+				"danmu":true
+				
+				},
 			"timeout":15
-			
 		},
 		
 		{
@@ -204,38 +204,8 @@
 		},
 		 
 		 
-		{
-            "key":"云盘4K",
-            "name":"🌤云云网盘🌤",
-            "type":3,
-            "api":"csp_Yunpan4k",
-            "searchable":1,
-            "filterable":0,
-            "changeable":0,
-            "ext":{
-               "token": "file://tvfan/ali_token.txt",
-                "danmu":true
-            },
-			"timeout":30
-        },
-		
-		{
-			"key":"阿里合集",
-			"name":"🦋阿里合集🦋",
-			"type": 3,
-			"api":"csp_AliShare",
-			"searchable":1,
-			"changeable":0,
-			"filterable":0,
-			"ext": {
-			  "danmu": true,
-			  "token": "file://TV/ali_token.txt",
-			  "share": "file://TV/阿里集合.json"},
-			"style":{"type":"list"},
-			"timeout": 30
-			
-			
-		},
+	
+	
 		
 		
 		{
@@ -249,7 +219,9 @@
 		   "ext": {
 			  "token": "file://TV/ali_token.txt",
 			  "cookie": "file://TV/quark_cookie.txt",
+			   
 			  "site": "https://tudou.lvdoui.top",
+			   
 			  "danmu" : true
 			}, "timeout": 25
 		},
@@ -273,52 +245,10 @@
 		},
 			
     
-        {
-            "key":"盘Se",
-            "name":"🏵阿里搜寻🏵",
-            "type":3,
-            "api":"csp_PanSearch",
-            "searchable":1,
-            "filterable":0,
-            "changeable":0,
-            "ext":{
-               "token": "file://tvfan/ali_token.txt",
-                "danmu":true
-            },
-			"timeout":30
-        },
        
        
-        {
-            "key":"盘搜",
-            "name":"🌼阿里盘搜🌼",
-            "type":3,
-            "api":"csp_PanSou",
-            "searchable":1,
-            "filterable":0,
-            "changeable":0,
-            "ext":{
-			"token": "file://tvfan/ali_token.txt",	
-                "danmu":true
-            },
-			"timeout":30
-        },
-      
-        {
-            "key":"Up云搜",
-            "name":"🌺阿里UP搜🌺",
-            "type":3,
-            "api":"csp_Upys",
-            "searchable":1,
-            "filterable":0,
-            "changeable":0,
-            "ext":{
-               "token": "file://tvfan/ali_token.txt",
-                "danmu":true
-            },
-			"timeout":30
-        },
-		
+       
+    
 	   
 	
         {
